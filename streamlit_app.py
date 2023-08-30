@@ -42,10 +42,6 @@ def load_pdf(pdf_path):
     return document_search
 
 
-
-# Load chatbot chain
-chain = load_qa_chain(OpenAI(), chain_type="stuff")
-
 # Main Streamlit app
 def main():
     st.title("PDF Chatbot")
